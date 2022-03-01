@@ -1,0 +1,13 @@
+#nav {
+  display: flex;
+  width: 80%;
+
+  .nav-item {
+    margin-right: 25px;
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+  }
+}
