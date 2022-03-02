@@ -15,7 +15,7 @@ const IndexPage = () => {
       }
     }
   `)
-  console.log(data);
+  
   return (
     <main data-page-id="home">
       <title>Home Page</title>
