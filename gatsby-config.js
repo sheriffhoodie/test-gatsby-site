@@ -6,6 +6,13 @@ module.exports = {
     plugins: [
       'gatsby-plugin-sass',
       'gatsby-plugin-image',
-      'gatsby-plugin-sharp'
+      'gatsby-plugin-sharp',
+      {
+        resolve: "gatsby-source-filesystem",
+        options: {
+          name: `blog`,
+          path: `${__dirname}/blog`,
+        }
+      },
     ]
 }
